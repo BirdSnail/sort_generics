@@ -1,5 +1,5 @@
-#问题
-##为什么编译器检测不出类型？
+# 问题
+## 为什么编译器检测不出类型？
 打开文件
 ```text
 src/main/java/com/birdsnail/sort/StreamSort.java
