@@ -21,4 +21,11 @@ public class StreamSort {
                 .collect(Collectors.toList());
     }
 
+    // 可以正确的排序
+    public static List<Human> sort3(List<Human> humans) {
+        return humans.stream()
+                .sorted(Comparator.comparing(it -> it.getName()))
+                .collect(Collectors.toList());
+    }
+
 }
